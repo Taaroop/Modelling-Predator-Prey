@@ -33,5 +33,5 @@ while t_elapsed < run_time:
     li_y.append(y)
     li_time.append(t_elapsed)
 
-plt.plot(li_time, li_x)
-plt.plot(li_time, li_y)
+plt.plot(li_time, li_x) # Blue plot
+plt.plot(li_time, li_y) # Yellow plot
